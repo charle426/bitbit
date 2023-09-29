@@ -1,5 +1,3 @@
-// import { useState } from 'react'
-import React from "react";
 import Hero from "./components/hero.jsx";
 import TypicalWallet from "./components/gridApp.jsx";
 import TradingGadgets from "./components/crypto.jsx";
@@ -14,19 +12,6 @@ import DownloadApp from "./components/download.jsx";
 import { blogData } from "./assets/blog.jsx";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 export default function HomePage() {
-  React.useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      // console.log(entries)
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("show");
-        }
-      });
-    });
-    const hiddenEl = document.querySelectorAll(".hidden-el");
-    hiddenEl.forEach((el) => observer.observe(el));
-    return;
-  }, []);
 
   const articles = blogData.map((items) => {
     return (

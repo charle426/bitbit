@@ -34,7 +34,7 @@ export default
               </p>
               <div className="flex flex-col gap-2 items-start">
                 <div className="flex items-center gap-3">
-                  <div className="future-icon px-2 py-2">
+                  <div className="future-icon text-[25px] bg-[#6639e4] h-[50px] w-[50px] flex items-center justify-center px-2 py-2">
                     <i className="fa fa-chart-line"></i>
                   </div>
                   <div>
@@ -44,7 +44,7 @@ export default
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="future-icon px-2 py-2">
+                  <div className="future-icon text-[25px] bg-[#6639e4] h-[50px] w-[50px] flex items-center justify-center px-2 py-2">
                     <i className="fa fa-zap zap"></i>
                   </div>
                   <div>
@@ -54,7 +54,7 @@ export default
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="future-icon px-2 py-2">
+                  <div className="future-icon text-[25px] bg-[#6639e4] h-[50px] w-[50px] flex items-center justify-center px-2 py-2">
                     <i className="fa fa-lock"></i>
                   </div>
                   <div>

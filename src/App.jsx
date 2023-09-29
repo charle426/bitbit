@@ -13,7 +13,7 @@ import ExpertPlan from "./expert-plan.jsx";
 import Blog from "./blog.jsx";
 import Tokens from "./tokens.jsx";
 import ContactPage from "./Contact.jsx";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import BlogHowToTradeCrypto from "./Blog-how-to-trade-crypto.jsx";
 import BlogWhatIsTheBest from "./Blog-what-is-the-best.jsx";
 import Blog5GreatCryptoApps from "./Blog-5-great-crypto-apps.jsx";

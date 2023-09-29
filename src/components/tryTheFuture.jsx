@@ -26,17 +26,17 @@ export default function Tryout() {
               <img
                 src={pic1}
                 alt="pic1"
-                className="absolute md:w-[250px] w-[200px] -rotate-6 z-10 left-1/3 -bottom-[270px] md:top-1/2 -translate-x-2/4 md:-translate-y-1/2"
+                className="absolute md:w-[250px] w-[180px] -rotate-6 z-10 left-1/3 -bottom-[270px] md:top-1/2 -translate-x-2/4 md:-translate-y-1/2"
               />
               <img
                 src={pic2}
                 alt="pic2"
-                className="absolute w-[200px] md:w-[250px] rotate-6 left-2/3 -bottom-[270px] md:top-1/2 -translate-x-2/4 md:-translate-y-1/2"
+                className="absolute w-[1800px] md:w-[250px] rotate-6 left-2/3 -bottom-[270px] md:top-1/2 -translate-x-2/4 md:-translate-y-1/2"
               />
             </div>
           </div>
         </div>
-        <div className=" w-full h-20 cover relative z-30"></div>
+        <div className=" w-full h-[120px] cover relative z-30"></div>
       </div>
     );
 }

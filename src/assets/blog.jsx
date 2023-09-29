@@ -51,6 +51,7 @@ export
           id: 1,
           blogImage: img1,
           desc: "FEATURED",
+          link: "/blog/what-is-the-best-and-most-secure-wallet-in-2023",
           title: "What is the best and most secure wallet in 2023",
           info: "In the ever-evolving landscape of cryptocurrency, security is paramount. With cyber threats becoming increasingly sophisticated, finding the most secure crypto wallet is crucial for safeguarding your digital assets. As we step into 2023, let's delve into the options available and identify the top choices for secure cryptocurrency storage.",
         };

@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import heroPic from "../images/5fad5b5aab11b7ddf2b9770a_bg-home-hero-2-crypto-template.svg";
 export default function Hero() {
     return (
@@ -18,9 +18,12 @@ export default function Hero() {
                     <button className=" download">
                         DOWNLOAD APP
                     </button>
-                    <button className="download pricing">
+                    <Link to="/pricing">
+                         <button className="download pricing">
                        VIEW PRICING
                     </button>
+                    </Link>
+                   
                 </div>
             </div>
         </section>

@@ -27,6 +27,7 @@ export default function Nav(props) {
 
   useEffect(() => {
      setNavState(false)
+     window.scrollTo(0, 0);
    },[pathname])
 
     window > addEventListener("scroll", (e) => {

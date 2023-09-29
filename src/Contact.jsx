@@ -16,9 +16,9 @@ export default function ContactPage() {
                className="flex items-center justify-between"
                id="faqQuestion"
              >
-               <h3 className="text-[30px]">{data.question}</h3>
+               <h3 className="lg:text-[30px] text-[23px]">{data.question}</h3>
                <p data-id={data.id}>
-                 <i className="fa fa-plus text-[30px] font-thin"></i>
+                 <i className="fa fa-plus text-[30px] font-extralight"></i>
                </p>
              </div>
              <div className="overflow-hidden answer">

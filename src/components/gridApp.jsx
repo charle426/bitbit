@@ -12,16 +12,16 @@ export default function TypicalWallet() {
         </h6>
         <div className="walletGrid grid lg:grid-cols-3 md:grid-cols-1 items-center gap-2">
           <div className="grid1 text-start ">
-            <h4 className="text-white">
+            <h3 className="text-white">
               <i className="fa fa-money-bill-transfer text-start"></i>
-            </h4>
+            </h3>
             <h4 className="text-white">Send and Receive</h4>
             <p className="text-white">
               Experience unmatched ease, making your crypto transactions
               effortlessly smooth and hassle-free with our platform.
             </p>
           </div>
-          <div className="hidden-el bigrid lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-3 md:col-start-1  grid gap-3 items-center overflow-hidden">
+          <div className="hidden-el bigrid lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-3 md:col-start-1 max-h-[80vh] grid gap-3 items-center overflow-hidden">
             <h4 className="text-white text-start"> IOS AND ANDROID </h4>
             <p className="text-white text-start">
               Elevate your crypto journey with our app, boasting extraordinary

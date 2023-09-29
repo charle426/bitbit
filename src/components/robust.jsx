@@ -6,23 +6,29 @@ export default function Robust() {
           <div className="platform flex flex-col items-start gap-5">
             <h2>Built on a robust and powerful platform</h2>
             <p>
-              Our platform's robust and powerful architecture empowers you to
+              Our platform`s robust and powerful architecture empowers you to
               navigate the dynamic world of cryptocurrencies with unparalleled
               ease and confidence.
             </p>
             <div className="flex flex-col items-start gap-5">
-              <h4 className="flex items-center gap-4">
-                <i className="fa fa-shield-alt"></i>
+              <div className="flex items-center gap-4">
+                <h4>
+                  <i className="fa fa-shield-alt"></i>
+                </h4>
                 <span>100% Private data</span>
-              </h4>
-              <h4 className="flex items-center gap-4">
-                <i className="fa fa-virus-covid"></i>
+              </div>
+              <div className="flex items-center gap-4">
+                <h4>
+                   <i className="fa fa-virus-covid"></i>
+                </h4>
                 <span>99.99% Uptime guarantee</span>
-              </h4>
-              <h4 className="flex items-center gap-4">
-                <i className="fa fa-comment-dots"></i>
+              </div>
+              <div className="flex items-center gap-4">
+                  <h4>
+                   <i className="fa fa-comment-dots"></i> 
+                </h4>
                 <span>24/7 Dedicated support</span>
-              </h4>
+              </div>
             </div>
           </div>
           <div className="w-full h-full md:mt-0 mt-3 ">

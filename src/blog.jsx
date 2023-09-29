@@ -2,6 +2,7 @@ import HomeBlog from "./components/homeBlog";
 import { blogButtons, blogPageData, featuredBlog } from "./assets/blog"
 import SubscribeToNewsletter from "./subcribe-to-newletter";
 import React from "react"
+import { Link } from "react-router-dom";
 export default function Blog() {
   // let dBlog = document.getElementById("dBlog");
   const [blogState, setBlogState] = React.useState(blogPageData) 
@@ -66,18 +67,22 @@ export default function Blog() {
               expert opinions on cryptocurrency trends.
             </p>
           </div>
-          <div className="rounded-[30px] bg-[#282454] flex flex-col lg:flex-row-reverse items-center overflow-hidden">
-            <div className="w-full">
-              <img src={featuredBlog.blogImage} alt="img" width="100%" />
+          <Link to={featuredBlog.link}>
+            <div className="rounded-[30px] featuredBlog bg-[#282454] flex flex-col lg:flex-row-reverse items-center overflow-hidden">
+              <div className="w-full">
+                <img src={featuredBlog.blogImage} alt="img" width="100%" className="duration-300" />
+              </div>
+              <div className="px-10 lg:py-0 pb-7 w-full">
+                <h4 className="bg-[#6639e4] rounded-[30px] w-fit px-3 py-2 mb-2 lg:translate-y-2 -translate-y-4">
+                  {featuredBlog.desc}
+                </h4>
+                <h3 className="text-[28px] lg:mt-6 lg:mb-3 my-2">
+                  {featuredBlog.title}
+                </h3>
+                <p className="line-clamp-5">{featuredBlog.info}</p>
+              </div>
             </div>
-            <div className="px-10 lg:py-0 pb-7">
-              <h4 className="bg-[#6639e4] rounded-[30px] w-fit px-3 py-2 mb-2 lg:translate-y-0 -translate-y-4">
-                {featuredBlog.desc}
-              </h4>
-              <h3 className="text-[28px] lg:my-6 my-2">{featuredBlog.title}</h3>
-              <p>{featuredBlog.info}</p>
-            </div>
-          </div>
+          </Link>
         </section>
         <SubscribeToNewsletter />
         <div className="px-0 lg:px-16 py-5">
