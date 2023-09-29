@@ -40,7 +40,7 @@ export default function BlogCrypto10AllYouNeed() {
             was to provide a decentralized alternative to traditional fiat
             currencies and the existing financial system.
           </p>
-          <h2 className="mt-8 mb-5">How Cryptocurrencies Work</h2>
+          <h2 className="mt-8 mb-5">How Crypto currencies Work</h2>
           <p>
             Cryptocurrencies use a decentralized network of computers (nodes) to
             validate and record transactions. These transactions are grouped
