@@ -758,7 +758,7 @@ i{
 }
 
 .a-little-video h1:hover {
-  transform: scale(1.1);
+  background-color: #9b83de;
   z-index: 50;
 }
 
