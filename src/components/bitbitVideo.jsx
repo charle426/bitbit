@@ -58,8 +58,10 @@ export default function BitbitVideo() {
 
             <h1
               id="playBtn"
-              className="fa fa-play play rounded-full translate-y-[-50%] translate-x-[-50%] top-[50%] left-[50%] md:w-[120px] md:h-[120px] h-[80px] w-[80px] absolute"
-            ></h1>
+              className=" text-white rounded-full translate-y-[-50%] translate-x-[-50%] top-[50%] left-[50%] md:w-[120px] md:h-[120px] h-[80px] w-[80px] absolute"
+            >
+              <i className="fa fa-play play"></i>
+            </h1>
           </div>
         </div>
       </div>
